@@ -1,0 +1,192 @@
+/* GENERIC STYLING (HTML defaults) */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: rgba(242, 242, 242, 1);
+}
+
+a{
+    color: #1C90F3;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+hr{
+    border-top: 1px solid lightgray;
+}
+/* ENDS HERE */
+
+.modal {
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    max-width: 420px;
+    box-shadow: 0 2px 4px 0 rgba(144, 160, 170, .8);
+}
+
+.modal-header {
+    padding: 5px;
+    background: rgba(245, 245, 245, 1);
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal-body{
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.modal-footer{
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* MODAL */
+/* Header elem Design */
+
+
+/* Body elem Design */
+
+
+/* Footer elem design */
+.btn{
+    color: #fff;
+    outline: none;
+    background-color: #0275d8;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #0275d8;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.submit-btn{
+   float: right;
+}
+
+a.links{
+    float: left;
+    margin: 10px 5px;
+}
+
+/* ENDS HERE */
+.modal-close {
+    background: url("./media/icon-sprite.png") -42px 0 no-repeat;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.modal-header h4 {
+    margin: 5px;
+    font-weight: normal;
+}
+
+.modal-input-label{
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 10px 0 10px;
+}
+
+/*Setting the different backgrounds based on file type*/
+.node-type-folder,
+.node-type-file,
+.node-type-private,
+.node-isOpen,
+.node-isClosed,
+.node-empty {
+    width: 15px;
+    height: 16px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.node-type-folder {
+    background: url("./media/icon-sprite.png") 1px 0 no-repeat;
+}
+
+.node-type-private {
+    background: url("./media/icon-sprite.png") -14px 0 no-repeat;
+}
+
+.node-type-file {
+    background: url("./media/icon-sprite.png") -27px 0 no-repeat;
+}
+
+.node-isOpen {
+    background: url("./media/icon-sprite.png") -71px 1px no-repeat;
+}
+
+.node-isClosed {
+    background: url("./media/icon-sprite.png") -57px 1px no-repeat;
+}
+
+/* Ends here */
+
+/* Menu Items */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu-item-header {
+    display: inline-block;
+    margin: 0 -2px;
+    padding: 10px;
+    word-break: break-all;
+    vertical-align: middle;
+    max-width: 260px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.menu-items {
+    text-align: left;
+    padding: 0 10px;
+    cursor: default;
+    margin-top: 5px;
+}
+
+li > .menu-items {
+    padding: 5px 0 5px 10px;
+    margin: 0;
+}
+.main-header-open{
+    padding: 5px;
+}
+
+.main-header-open:hover, .main-header-open.selected{
+    background-color: lightblue;
+}
